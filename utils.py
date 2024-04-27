@@ -321,6 +321,8 @@ def get_input_size(dataset):
         return size
     elif dataset == 'ffhq':
         return 256
+    elif dataset == 'pointcloud':
+        return 64
     else:
         raise NotImplementedError
 
